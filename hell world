@@ -1,0 +1,19 @@
+'''
+峰峰是个数学老师，他在登记成绩时发现，有两位学生（lily和tony）的成绩登反了，请你帮他修改过来吧！
+
+最后输出修改后的成绩。
+
+输出示例：
+---学生成绩---
+lily 78
+qiqi 93
+tony 97
+fenfen 88'''
+
+score = {"lily":97, "qiqi":93, "tony":78, "fenfen":88}
+score['lily']=78
+score['tony']=97
+print("---学生成绩---")
+for i in score:
+    print(f"{i} {score[i]}")
+
